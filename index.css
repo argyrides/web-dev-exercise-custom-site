@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(194, 97, 64, 255);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.logo {
+  width: 45%;
+  float: left;
+  color: white;
+  font-size: 40px;
+  margin-left: 50px;
+  text-shadow: 2px 2px black;
+}
+
+.menu {
+  width: 55%;
+  float: right;
+}
+
+.menu > ul {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  color: white;
+  font-size: 17px;
+}
+
+.menu > ul :hover {
+  color: rgba(75, 43, 32, 255);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.slider {
+  width: 100%;
+  background-image: url("Images/mars.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 650px;
+  opacity: 0.8;
+}
+
+.slider h1 {
+  font-size: 55px;
+  text-shadow: 2px 2px black;
+}
+
+.slider h3 {
+  font-size: 35px;
+  text-shadow: 2px 2px black;
+}
+
+.title {
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  color: white;
+  text-align: center;
+}
+
+.subtitle {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.mission {
+  width: 60%;
+  margin: 0 auto;
+  padding: 40px 25px;
+  border: 2px solid rgba(194, 97, 64, 255);
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mission-title {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  font-size: 35px;
+  text-shadow: 2px 2px white;
+  text-align: center;
+}
+
+.mission-text {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.perseverance {
+  width: 100%;
+  background-image: url("Images/Perseverance1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  opacity: 0.8;
+}
+
+.perseverance-title {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  text-shadow: 2px 2px black;
+}
+
+.perseverance-text {
+  width: 40%;
+  float: right;
+  color: white;
+  text-align: center;
+  margin-right: 2%;
+  font-size: 19px;
+  margin-top: 10%;
+}
+
+.ingenuity {
+  display: flex;
+}
+
+.ingenuity-photo {
+  width: 50%;
+  background-image: url("Images/ingenuity.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  opacity: 0.8;
+}
+
+.ingenuity-left {
+  width: 50%;
+  border: 2px solid rgba(194, 97, 64, 255);
+  margin: 25px 25px 25px 25px;
+}
+
+.ingenuity-title {
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: black;
+  text-align: center;
+  font-size: 55px;
+  text-shadow: 2px 2px white;
+  margin-left: 10%;
+}
+
+.ingenuity-text {
+  width: 80%;
+  font-size: 19px;
+  margin-top: 3%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.footer {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: rgba(194, 97, 64, 255);
+  color: white;
+}
